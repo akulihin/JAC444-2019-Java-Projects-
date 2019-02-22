@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ws3",
+            "request": "launch",
+            "mainClass": "ws3",
+            "projectName": "Workshop 3_c8ae73df",
+            "console": "integratedTerminal"
+        }
+    ]
+}
