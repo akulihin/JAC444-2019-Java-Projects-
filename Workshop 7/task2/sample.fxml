@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<AnchorPane prefHeight="396.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <VBox prefHeight="396.0" spacing="20.0">
+            <children>
+                <Label fx:id="titleLabel" contentDisplay="RIGHT" prefHeight="27.0" text="Two randomly generated numbers are: x and y" />
+                <Label fx:id="addLabel" contentDisplay="RIGHT" prefHeight="27.0" text="x + y = ">
+                    <graphic>
+                        <TextField fx:id="addFld" />
+                    </graphic>
+                </Label>
+                <Label fx:id="subLabel" contentDisplay="RIGHT" text="x - y = ">
+                    <graphic>
+                        <TextField fx:id="subFld" />
+                    </graphic>
+                </Label>
+                <Label fx:id="mulLabel" contentDisplay="RIGHT" text="x * y = ">
+                    <graphic>
+                        <TextField fx:id="mulFld" />
+                    </graphic>
+                </Label>
+                <Label fx:id="divLabel" contentDisplay="RIGHT" text="x / y = ">
+                    <graphic>
+                        <TextField fx:id="divFld" />
+                    </graphic>
+                </Label>
+                <Label fx:id="correctLabel" text="Number of correct answers: " />
+                <Label fx:id="incorrectLabel" text="Number of incorrect answers: " />
+                <Label contentDisplay="RIGHT" text="Would you like to try with different numbers?">
+                    <graphic>
+                        <Button contentDisplay="RIGHT" mnemonicParsing="false" onAction="#newQuiz" text="Yes" />
+                    </graphic>
+                </Label>
+            </children>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>

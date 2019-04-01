@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - task2",
+            "request": "launch",
+            "mainClass": "task2",
+            "projectName": "Workshop 7_c8ae73e3"
+        }
+    ]
+}
